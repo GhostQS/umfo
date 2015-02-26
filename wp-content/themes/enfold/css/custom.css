@@ -1,0 +1,271 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+ 	.clanovi{
+ 		width:100%!important;
+ 		height:150px!important;
+ 	}
+
+}
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+	
+	
+  /* Add your Desktop Styles here */
+	.logo img{padding: 22px 0px; width: 400px!important}
+	.jumbo-slika{
+		position: relative;
+		border-bottom-width: 5px!important;
+		border-bottom-color: black!important;
+		border-bottom-style: solid!important;
+		
+	}
+	.jumbo-slika p{
+		margin:-7px 0px;
+	}
+	.jumbo-naslov{
+		position: absolute;
+		top: 65%;
+		left: 2%;
+		background: #c2151c;
+		padding: 1em;
+		margin: 0px!important;
+	}
+	.jumbo-naslov h1{
+		color:white;
+		margin:0
+	}
+	main{
+		padding-top:0!important;
+		}		
+}
+	.page-id-2 div .av_one_third:nth-child(3){
+		background-image: url('/wp-content/uploads/2015/02/UKojemSteFondu.jpg');
+		background-size: cover;
+		
+	}
+	.page-id-2 div .av_one_third:nth-child(4){
+		background-image: url('/wp-content/uploads/2015/02/KolikoImateNovca.jpg');
+		background-size: cover;
+		
+	}
+	.page-id-2 div .av_one_third:nth-child(5){
+		background-image: url('/wp-content/uploads/2015/02/ObvezniDobrovoljniMF.jpg');
+		background-size: cover;
+		min-height:195px;
+	}
+	.page-id-2 div .av_one_third:nth-child(3),.page-id-2 div .av_one_third:nth-child(4),.page-id-2 div .av_one_third:nth-child(5){height:195px!important; -webkit-transition: background .8s ease-out 0;
+-moz-transition: background .8s ease-out 0s;
+-o-transition: background .8s ease-out 0;
+transition: background .8s ease-out 0;}
+	.page-id-2 div .av_one_third:nth-child(3):hover,.page-id-2 div .av_one_third:nth-child(4):hover,.page-id-2 div .av_one_third:nth-child(5):hover{
+		background:#c2151c!important;
+		background-image: none;
+	}
+	.page-id-2 div .av_one_third:nth-child(7){
+		padding:0
+	}
+	.page-id-2 .avia-builder-el-12{padding:0px!important}
+	.av_one_third{
+		padding:1.5em 1em;
+		
+	}
+	.av_one_third h2, .av_one_third h3, .av_one_third p {
+		color: white;
+		text-transform: none;
+	}
+	.rijecnik-box{
+		background-image:url('/wp-content/uploads/2015/02/Publikacije.jpg')
+		
+	}
+	.publikacije-box{
+		background-image:url('/wp-content/uploads/2015/02/Istrazivanja.jpg')
+	}	
+	.rijecnik-box, .publikacije-box{
+		background-size:cover;
+		padding: 1em;
+		min-height: 135px;
+		margin-bottom: 1em;	
+		position:relative;
+		
+		
+	}
+	.rijecnik-box h3, .publikacije-box h3{
+		background: #c2151c;
+		display: inline;
+		padding:3px!important;
+		position:absolute;
+		bottom: 0px
+	}
+	#savia3-menu{display: none!important}	
+	.avia_textblock .k-box{
+		float:left;
+		width:50%;
+		margin-top: 2em;
+		margin-bottom: 2em
+	}
+	.main_color input[type='text']{color:#aaa!important}
+	.widget_nav_menu a, .widget_nav_menu .current-menu-item>a, .widget_nav_menu .current_page_item>a{padding-left:10px!important}	
+	input[placeholder],
+    [placeholder],
+    *[placeholder] {
+      color: #aaa!important;
+    }
+    .widget_nav_menu{
+    	position: relative!important;
+    	z-index: 9999!important;
+    	margin-bottom: 1em!important;
+    }
+    .novosti{
+    	color:white!important;
+    	padding: 0.5em 1em!important;
+    	background:black!important;
+    	display: inline-block;
+    	margin: 0px
+    }
+    .novosti-div{
+		border-bottom-width: 5px!important;
+		border-bottom-color: #000!important;
+		border-bottom-style: solid!important;
+	}
+	#top .avia-button-fullwidth{
+		background-color: #c2151c; opacity: 0.8;
+		-webkit-transition: background .8s ease-out 0;
+		-moz-transition: background .8s ease-out 0s;
+		-o-transition: background .8s ease-out 0;
+		transition: background .8s ease-out 0;
+	}
+	#top .main_color .input-text, #top .main_color input[type='text'], #top .main_color input[type='input'], #top .main_color input[type='password'], #top .main_color input[type='email'], #top .main_color input[type='number'], #top .main_color input[type='url'], #top .main_color input[type='tel'], #top .main_color input[type='search'], #top .main_color textarea, #top .main_color select{color:#aaa!important}
+	.widget_nav_menu .current-menu-item>a, .widget_nav_menu .current_page_item>a {
+		color: white;
+		}
+	.main_color table, .main_color .widget_nav_menu ul:first-child>.current-menu-item, .main_color .widget_nav_menu ul:first-child>.current_page_item, .main_color 	.widget_nav_menu ul:first-child>.current-menu-ancestor, .main_color .pagination .current, .main_color .pagination a, .main_color.iconbox_top .iconbox_content, .main_color .av_promobox, .main_color .toggle_content, .main_color .toggler:hover, .main_color .related_posts_default_image, .main_color .search-result-counter, .main_color .container_wrap_meta, .main_color .avia-content-slider .slide-image, .main_color .avia-slider-testimonials .avia-testimonial-content, .main_color .avia-testimonial-arrow-wrap .avia-arrow, .main_color .news-thumb, .main_color .portfolio-preview-content, .main_color .portfolio-preview-content .avia-arrow, .main_color .av-magazine .av-magazine-entry-icon, .main_color .related_posts.av-related-style-full a, .main_color .aviaccordion-slide, .main_color.avia-fullwidth-portfolio .pagination, .main_color .isotope-item.special_av_fullwidth .av_table_col.portfolio-grid-image, .main_color .av-catalogue-list li:hover, .main_color .wp-playlist{
+		background: #c2151c;
+	}
+	.newsletter-div{
+		width:100%;
+		display: block;
+		background-color:#f0f0f0;
+		padding:1em 0;
+	}	
+	.newsletter-box{
+		max-width:1030px;
+		margin:0 auto;
+		display:block
+	}
+	#mc4wp_email{
+			float:left!important;
+			width:300px!important;
+			margin-right:2em!important;
+	}
+	.news-button{
+		background: #c2151c!important;
+		color: #fff!important;
+		font-weight: bold!important;
+		-webkit-transition: background .8s ease-out 0;
+		-moz-transition: background .8s ease-out 0s;
+		-o-transition: background .8s ease-out 0;
+		transition: background .8s ease-out 0;
+	}
+	.news-button:hover{
+		background: #e24952!important;
+	}
+	
+	.newsletter-box h2{
+		float: left;
+		margin-right: 1em;
+		margin-top: 5px;
+	}
+	h3{
+		line-height: 1.4em;
+	}
+	
+	.post-entry-1{background-image: none!important}
+	.page-id-2 div .av_one_third:nth-child(3) .post-entry-1:hover{background-color:#fff!important;
+		background-image: none;!important}
+	.slide-content a{
+		color: #333!important;
+	}
+	#text-4{padding-top: 1em}
+	.page-id-2 #text-4{padding-top: 0em}
+	#top .widget_nav_menu li{
+		border-top-width: 2px!important;
+		border-top-color: #c2151c!important;
+		border-top-style: solid!important;
+		-webkit-transition: background .8s ease-out 0;
+		-moz-transition: background .8s ease-out 0s;
+		-o-transition: background .8s ease-out 0;
+		transition: background .8s ease-out 0;
+	}	
+	#top .widget_nav_menu li:last-child{
+		border-bottom-width: 2px!important;
+		border-bottom-color: #c2151c!important;
+		border-bottom-style: solid!important;
+	}
+	#top #footer .widget ul li{
+		border:none!important;
+	}
+	#top .widget_nav_menu li:hover{
+		background-color:#c2151c!important;
+		color:#fff!important
+	}
+	#top .widget_nav_menu a:hover{color:#fff!important}
+		
+	*::-moz-placeholder{color:#aaa!important}
+	*::-ms-placeholder{color:#aaa!important}
+	*::-o-placeholder{color:#aaa!important}
+	*::-webkit-placeholder{color:#aaa!important}
+	*::placeholder{color:#aaa!important}
+	
+	.clanovi{
+		float:left;
+		width:32%;
+		background:#f8f8f8;
+		display:inline-block;
+		margin: 4px;
+		padding: 10px;
+		text-align: center;
+		min-height: 310px; 
+	}
+	.clanovi img
+	{
+    filter:  url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+   -moz-filter: grayscale(1);
+   -o-filter: grayscale(1);
+   -ms-filter: grayscale(1);
+   -webkit-transition: -webkit-filter .8s ease-out 0;
+	-moz-transition: -moz-filter .8s ease-out 0s;
+	-o-transition: -o-filter .8s ease-out 0;
+	transition: filter .8s ease-out 0;
+	}	
+	.clanovi img:hover
+	{
+    
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+	}
+	.main_color .meta-color, .main_color .sidebar, .main_color .sidebar a, .main_color .minor-meta, .main_color .minor-meta a, .main_color .text-sep, .main_color blockquote, .main_color .post_nav a, .main_color .comment-text, .main_color .side-container-inner, .main_color .news-time, .main_color .pagination a, .main_color .pagination span, .main_color .tweet-text.avatar_no .tweet-time, #top .main_color .extra-mini-title, .main_color .team-member-job-title, .main_color .team-social a, .main_color #js_sort_items a, .grid-entry-excerpt, .main_color .avia-testimonial-subtitle, .main_color .commentmetadata a, .main_color .social_bookmarks a, .main_color .meta-heading>*, .main_color .slide-meta, .main_color .slide-meta a, .main_color .taglist, .main_color .taglist a, .main_color .phone-info, .main_color .phone-info a, .main_color .av-sort-by-term a, .main_color .av-magazine-time, .main_color .av-magazine .av-magazine-entry-icon, .main_color .av-catalogue-content, .main_color .wp-playlist-item-length{color:#c2151c!important}
+	.post-entry-1:hover{background-color:none!important}
+	.main_color .rounded-container, #top .main_color .pagination a:hover, .main_color .small-preview, .main_color .fallback-post-type-icon{
+		background: #c2151c!important;
+	}
+	#top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap  .av_one_third:nth-child(3):hover{background-color: #fff!important}
